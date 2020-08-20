@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pitchusapp
+  name: pitchusappnew
   namespace: mynamespace-1432497
 spec:
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pitchucontainer
-        image: pitchunath/webapp
+        image: pitchunath/webappnew
         ports:
         - containerPort: 8080
 
