@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/openapp")
 	public String getMessage() {
-		return "This is pitchu's page";
+		return "This is pitchu's new page";
 	}
 
 	public static void main(String[] args) {
